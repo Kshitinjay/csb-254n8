@@ -1,0 +1,21 @@
+#mediaHandles {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 25%;
+}
+#mediaHandles img {
+  margin: 5px;
+  cursor: pointer;
+}
+#img_1:hover,
+#img_2:hover,
+#img_3:hover,
+#img_4:hover,
+#img_5:hover,
+#img_6:hover,
+#img_7:hover,
+#img_8:hover {
+  transform: translateX(15px);
+  transition-duration: 0.5s;
+}
